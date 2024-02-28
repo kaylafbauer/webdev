@@ -1,0 +1,44 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+header {
+    font-family: palatino;
+    padding: 0.5em;
+    background: Lavender;
+    margin:auto;
+    text-align:center;
+    width:800px;
+}
+
+
+body {
+	font-family: courier, sans-serif;
+	background: LavenderBlush;
+}
+
+footer{
+    background: Lightgray;
+    font-size: 0.5em;
+    
+}
+
+div#container {
+	width:800px;
+    margin:auto; 
+    text-align:center;
+    background: LightSteelBlue;
+}
+
+
+
+

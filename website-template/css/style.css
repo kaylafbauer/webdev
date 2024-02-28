@@ -1,0 +1,54 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+body {
+	font-family: monospace;
+    background:65, 92, 76;
+    color: darkolivegreen;
+    margin: 40px      
+}
+
+
+#container {
+border: 1px solid 77, 95, 110;
+background: 120, 102, 140;
+width: 90%;
+max-width: 800px;
+margin: auto;    
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+a {
+    color:30, 64, 29;
+}
+
+a:hover{
+    color: 105, 64, 80;
+}
+
+figure {
+    margin: 0px;
+}
+
+figure img{
+    width: 50%;
+}
+
+figcaption, footer{
+    font-size: 0.75em;
+}
